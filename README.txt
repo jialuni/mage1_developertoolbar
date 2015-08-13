@@ -4,7 +4,7 @@ Magento 1.x Developer Toolbar
 
 Profiler (version, queries, layouts...) and block inspector
 
-Based on a fork of Wee/DeveloperToolbar, ehanced by ECA
+Based on a fork of Wee/DeveloperToolbar, enhanced by ECA
 
 
 Installation
