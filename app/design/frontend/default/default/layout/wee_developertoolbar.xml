@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addCss"><stylesheet>css/wee_developertoolbar/wee_toolbar.css</stylesheet></action>
+            
+            <action method="addJs"><script>wee_developertoolbar/wee_developertoolbar.js</script></action>
+            
+        </reference>
+        <reference name="before_body_end">
+            <block type="core/text" name="wee_developertoolbar_tag">
+            	<action method="addText"><text><![CDATA[<tag/>]]></text></action>
+            </block>
+        </reference>
+    </default>
+</layout>
