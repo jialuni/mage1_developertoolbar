@@ -21,5 +21,5 @@ wee_developertoolbar/
 
 
 2. If you don't use the default/default theme, move app/design/frontend/* and skin/frontend/* files in your current theme
-3. uncomment in /index.php : Varien_Profiler::enable();
-4. In backend, select a Store View, then enable options in Advanced > Developer
+3. uncomment (or add) in /index.php : Varien_Profiler::enable();
+4. In backend, in the top left corner, select the Store View you want to debug, then enable options in Advanced > Developer
